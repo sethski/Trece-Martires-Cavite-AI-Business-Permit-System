@@ -112,9 +112,9 @@ export function BusinessDetails({ formData, updateFormData, onNext }: Props) {
                   <Input
                     id="transactionType"
                     value={formData.transactionType}
-                    onChange={(e) => updateFormData({ transactionType: e.target.value })}
-                    required
-                    className="mt-2 bg-white"
+                    readOnly
+                    disabled
+                    className="mt-2 bg-gray-100 cursor-not-allowed"
                   />
                 </div>
                 <div>
