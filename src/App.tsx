@@ -54,7 +54,7 @@ export default function App() {
     contactNumber: '',
     birthdate: '',
     transactionType: 'NEW',
-    dateOfApplication: new Date().toLocaleDateString('en-GB'),
+    dateOfApplication: new Date().toISOString().split('T')[0], // Format: YYYY-MM-DD
     sssNumber: '',
     tinNumber: '',
     dtiNumber: '',

@@ -121,6 +121,7 @@ export function BusinessDetails({ formData, updateFormData, onNext }: Props) {
                   <Label htmlFor="dateOfApplication">Date of Application</Label>
                   <Input
                     id="dateOfApplication"
+                    type="date"
                     value={formData.dateOfApplication}
                     onChange={(e) => updateFormData({ dateOfApplication: e.target.value })}
                     required
