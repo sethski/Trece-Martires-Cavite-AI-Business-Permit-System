@@ -102,17 +102,17 @@ export default function App() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-teal-50 via-white to-green-50 flex flex-col">
+    <div className="min-h-screen bg-gradient-to-br from-teal-50 via-white to-green-50">
       {/* Header */}
       <motion.div
         initial={{ y: -20, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
-        className="bg-white shadow-md border-b-4 border-teal-500 rounded-b-2xl mx-auto mt-4 w-full max-w-6xl"
+        className="bg-white shadow-md border-b-4 border-teal-500 rounded-b-2xl mx-4 mt-4"
       >
-        <div className="px-6 py-6">
-          <div className="flex items-center gap-4 justify-center">
+        <div className="max-w-6xl mx-auto px-6 py-6">
+          <div className="flex items-center gap-4">
             <img src={logoTrece} alt="Trece Martires Logo" className="w-20 h-20 object-contain" />
-            <div className="text-center">
+            <div>
               <h1 className="text-teal-700">Trece Martires Cavite AI Business Permit System</h1>
               <p className="text-gray-600">Business Permit Application Portal</p>
             </div>
@@ -121,7 +121,7 @@ export default function App() {
       </motion.div>
 
       {/* Main Content */}
-      <div className="w-full max-w-6xl mx-auto px-4 py-8">
+      <div className="max-w-6xl mx-auto px-4 py-8">
         {/* Step Indicators */}
         <motion.div
           initial={{ y: -20, opacity: 0 }}
