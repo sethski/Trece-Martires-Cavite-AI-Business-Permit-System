@@ -11,13 +11,15 @@ type Props = {
 
 export function SuccessPage({ applicationNumber }: Props) {
   const handleDownload = () => {
-    // Open the PDF file from public folder
-    window.open('/Final-MAYORS-PERMIT.pdf.pdf', '_blank');
+    // Open the PDF file - use relative path for GitHub Pages
+    const pdfPath = import.meta.env.BASE_URL + 'Final-MAYORS-PERMIT.pdf.pdf';
+    window.open(pdfPath, '_blank');
   };
 
   const handleQRClick = () => {
     // Also open PDF when clicking QR code
-    window.open('/Final-MAYORS-PERMIT.pdf.pdf', '_blank');
+    const pdfPath = import.meta.env.BASE_URL + 'Final-MAYORS-PERMIT.pdf.pdf';
+    window.open(pdfPath, '_blank');
   };
 
   // Approval Page
