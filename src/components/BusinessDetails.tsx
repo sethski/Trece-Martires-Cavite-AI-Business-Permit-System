@@ -252,6 +252,28 @@ export function BusinessDetails({ formData, updateFormData, onNext }: Props) {
                     className="mt-2 bg-white"
                   />
                 </div>
+                <div>
+                  <Label htmlFor="city">City</Label>
+                  <Input
+                    id="city"
+                    placeholder="City name"
+                    value={formData.city}
+                    onChange={(e) => updateFormData({ city: e.target.value })}
+                    required
+                    className="mt-2 bg-white"
+                  />
+                </div>
+                <div className="col-span-2">
+                  <Label htmlFor="state">State / Province</Label>
+                  <Input
+                    id="state"
+                    placeholder="State or Province"
+                    value={formData.state}
+                    onChange={(e) => updateFormData({ state: e.target.value })}
+                    required
+                    className="mt-2 bg-white"
+                  />
+                </div>
               </div>
             </motion.div>
 

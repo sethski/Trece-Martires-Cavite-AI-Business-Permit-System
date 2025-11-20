@@ -28,6 +28,8 @@ export type FormData = {
   street: string;
   subdivision: string;
   barangay: string;
+  city: string;
+  state: string;
   zipCode: string;
   // Documents
   businessDocument: File | null;
@@ -64,6 +66,8 @@ export default function App() {
     street: '',
     subdivision: '',
     barangay: '',
+    city: '',
+    state: '',
     zipCode: '',
     businessDocument: null,
     idDocument: null,
