@@ -3,7 +3,7 @@ import { CheckCircle2, Mail, MapPin, Download } from 'lucide-react';
 import { Card } from './ui/card';
 import { Button } from './ui/button';
 import logoTrece from '../assets/5022dfc96c524adfc95cf5c9ef45032ef0188943.png';
-import qrCodeImage from '../assets/new-qr-code.png';
+import qrCodeImage from '../assets/582453764_1196817289177115_9128746263049029609_n.png';
 
 type Props = {
   applicationNumber: string;
