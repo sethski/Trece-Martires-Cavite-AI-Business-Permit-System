@@ -54,7 +54,7 @@ export function Payment({ formData, onNext, onPrevious }: Props) {
                 <div className="bg-white rounded-lg p-6 shadow-md">
                   <div className="flex justify-between items-center mb-4">
                     <span className="text-gray-600">Business Permit Fee:</span>
-                    <span className="text-gray-900">₱ 1,500.00</span>
+                    <span className="text-gray-900">₱ 500.00</span>
                   </div>
                   <div className="flex justify-between items-center mb-4">
                     <span className="text-gray-600">Processing Fee:</span>
@@ -62,7 +62,7 @@ export function Payment({ formData, onNext, onPrevious }: Props) {
                   </div>
                   <div className="border-t pt-4 flex justify-between items-center">
                     <span className="text-gray-900">Total Amount:</span>
-                    <span className="text-teal-700">₱ 1,600.00</span>
+                    <span className="text-teal-700">₱ 600.00</span>
                   </div>
                 </div>
 
